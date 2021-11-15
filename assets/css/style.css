@@ -155,6 +155,7 @@ section {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
+  background: #fff;
 }
 .header.header-scrolled {
   background: #fff;
@@ -204,7 +205,8 @@ section {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #013289;
+  /* color: #013289; */
+  color: #424242;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -214,10 +216,11 @@ section {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #4154f1;
+  /* color: #4154f1; */
+  color: rgba(128,128,128, 0.6);
 }
 .navbar .getstarted, .navbar .getstarted:focus {
-  background: #4154f1;
+  color: rgba(128,128,128);
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
@@ -424,6 +427,10 @@ section {
 @media (min-width: 1024px) {
   .hero {
     background-attachment: fixed;
+    
+  }
+  .hero .hero-img {
+    width:40%;
   }
 }
 @media (max-width: 991px) {
@@ -1949,6 +1956,11 @@ section {
     background-position: center bottom;
   }
 }
+
+.footer .footer-top .footer-logo .logo img {
+  max-height: 150px;
+  /* margin-right: 6px; */
+}
 .footer .footer-top .footer-info {
   margin-bottom: 30px;
 }
@@ -1976,16 +1988,28 @@ section {
   font-family: "Nunito", sans-serif;
   color:#ffff;
 }
+
+
+.footer .footer-top .footer-info h5 {
+
+  color:#ffff;
+}
+
+
+
+
 .footer .footer-top .social-links a {
   font-size: 20px;
   display: inline-block;
-  color: rgba(1, 41, 112, 0.5);
+  /* color: rgba(1, 41, 112, 0.5); */
+  color:#ffff;
   line-height: 0;
   margin-right: 10px;
   transition: 0.3s;
 }
 .footer .footer-top .social-links a:hover {
-  color: #012970;
+  /* color: #012970; */
+  color: rgba(128,128,128);
 }
 .footer .footer-top h4 {
   font-size: 16px;
@@ -2032,7 +2056,8 @@ section {
 .footer .copyright {
   text-align: center;
   padding-top: 30px;
-  color: #012970;
+  /* color: #012970; */
+  color:#ffff;
 }
 .footer .credits {
   padding-top: 10px;
