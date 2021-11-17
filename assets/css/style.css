@@ -120,7 +120,8 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  /* background: #4154f1; */
+  background: #424242;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -132,7 +133,8 @@ section {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #6776f4;
+  /* background: #6776f4; */
+  background: rgba(128,128,128);
   color: #fff;
 }
 .back-to-top.active {
@@ -432,6 +434,9 @@ section {
   .hero .hero-img {
     width:40%;
   }
+  .hero .hero-img img {
+    width:75%;
+  }
 }
 @media (max-width: 991px) {
   .hero {
@@ -515,10 +520,12 @@ section {
 --------------------------------------------------------------*/
 .values .box {
   padding: 30px;
-  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+  box-shadow: 3px 0 5px rgba(1, 41, 112, 0.3);
   text-align: center;
   transition: 0.3s;
   height: 100%;
+  background: #F5F5F5;
+  border-radius: 30px;
 }
 .values .box img {
   padding: 30px 50px;
@@ -527,7 +534,8 @@ section {
 }
 .values .box h3 {
   font-size: 24px;
-  color: #012970;
+  /* color: #012970; */
+  color: #424242;
   font-weight: 700;
   margin-bottom: 18px;
 }
@@ -536,6 +544,10 @@ section {
 }
 .values .box:hover img {
   transform: scale(1);
+}
+
+.values .container header p {
+  color:#424242;
 }
 
 /*--------------------------------------------------------------
@@ -913,6 +925,15 @@ section {
 .faq .accordion-body {
   padding: 0 0 25px 0;
   border: 0;
+}
+
+.faq .accordion-item button {
+  background: #EAEAEA;
+  padding-left:10px;
+}
+
+.faq .accordion-item{
+  margin-bottom:10px;
 }
 
 /*--------------------------------------------------------------
