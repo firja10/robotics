@@ -528,7 +528,7 @@ section {
   border-radius: 30px;
 }
 .values .box img {
-  padding: 30px 50px;
+  padding: 30px 5px;
   transition: 0.5s;
   transform: scale(1.1);
 }
