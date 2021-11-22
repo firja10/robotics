@@ -528,7 +528,7 @@ section {
   border-radius: 30px;
 }
 .values .box img {
-  padding: 30px 50px;
+  padding: 30px 5px;
   transition: 0.5s;
   transform: scale(1.1);
 }
@@ -918,13 +918,14 @@ section {
   box-shadow: none;
 }
 .faq .accordion-button:not(.collapsed) {
-  background: none;
+  background: #eeebeb;
   color: #4154f1;
   border-bottom: 0;
 }
 .faq .accordion-body {
-  padding: 0 0 25px 0;
+  padding: 5px 5px 5px 5px;
   border: 0;
+  background:#e7e6e6;
 }
 
 .faq .accordion-item button {
