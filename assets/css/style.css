@@ -919,11 +919,12 @@ section {
 }
 .faq .accordion-button:not(.collapsed) {
   background: #eeebeb;
-  color: #4154f1;
+  /* color: #4154f1; */
+  color: #424242;
   border-bottom: 0;
 }
 .faq .accordion-body {
-  padding: 5px 5px 5px 5px;
+  padding: 5px 20px 5px 20px;
   border: 0;
   background:#e7e6e6;
 }
